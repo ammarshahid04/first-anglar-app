@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'firstapp';
+
+number1:number=50;
+number2:number=60;
+result:number=0;
+
+
+calculator()
+{
+  this.result=this.number1+this.number1;
+  
+}
+
 }
